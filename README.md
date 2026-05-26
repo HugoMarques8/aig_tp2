@@ -43,3 +43,15 @@ cannot import name '_Ink' from 'PIL._typing'
 restart the runtime/kernel and rerun the notebook from the first cell. The install cell pins `Pillow<12` to avoid that Diffusers/Pillow compatibility issue.
 
 The install cell also pins `pandas<3` to avoid dependency conflicts with packages commonly preinstalled in Colab, such as Gradio.
+
+## Local install (uv)
+
+This repo supports multiple CUDA-backed PyTorch installs via optional extras:
+
+```bash
+# CUDA 12.6
+uv sync --extra cuda126
+
+# CUDA 12.8
+uv sync --extra cuda128
+```
