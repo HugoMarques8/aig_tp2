@@ -1,0 +1,41 @@
+[
+  {
+    "iter": 1,
+    "objective": 0.16097645461559296,
+    "clip_sim": 0.8642578125,
+    "lpips": 0.5129145979881287,
+    "rmse": 0.19036675989627838,
+    "prompt": "anime character with a sword and fire in his hand, trending on artstaton, glowing effect, looking like annie leonhart, inspired by Mandy Jurgens, kerberos, spectral, terada, avatar with a blond hair, by Joong Keun Lee, test subject supersoldier, swirls of fire, ash, in the style of clint cearley",
+    "render": "students/outputs/20260527-211117_ollama_refine/1159_3/candidate_001.png",
+    "target": "tp2-chosen/1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 2,
+    "objective": 0.0311223566532135,
+    "clip_sim": 0.77099609375,
+    "lpips": 0.5333886742591858,
+    "rmse": 0.2064850628376007,
+    "prompt": "anime character with a sword and fire in hand, trending on artstation, glowing effect, inspired by Mandy Jurgens' style of vibrant colors and soft lighting, reminiscent of Joong Keun Lee's avatar illustrations, with swirling ash and ember textures, in the style of Clint Cearley's dynamic action scenes.",
+    "render": "students/outputs/20260527-211117_ollama_refine/1159_3/candidate_002.png",
+    "target": "tp2-chosen/1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 3,
+    "objective": 0.092482790350914,
+    "clip_sim": 0.82275390625,
+    "lpips": 0.5206897258758545,
+    "rmse": 0.2095813900232315,
+    "prompt": "Anime character with a sword and flames in hand, trending on ArtStation, vibrant colors reminiscent of Mandy Jurgens' style, soft warm lighting like Joong Keun Lee's avatar illustrations, dynamic action scene textures with swirling ash and ember effects, Clint Cearley-inspired glowing effect.",
+    "render": "students/outputs/20260527-211117_ollama_refine/1159_3/candidate_003.png",
+    "target": "tp2-chosen/1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  }
+]

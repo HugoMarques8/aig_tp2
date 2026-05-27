@@ -1,0 +1,41 @@
+[
+  {
+    "iter": 1,
+    "objective": 0.13454385101795197,
+    "clip_sim": 0.9228515625,
+    "lpips": 0.5953731536865234,
+    "rmse": 0.1929345577955246,
+    "prompt": "arafed palm tree on a rock in the ocean at sunset, adventure hyper realistic render, photoreailstic, an enormous silver tree, puddles of turquoise water, the sun is shining. photographic, long exposure photograph, in matte painting, flooding, inspired by Andrey Esionov, photographic print, high definition photo, old tree, wavy water, paradise",
+    "render": "students/outputs/20260527-211057_ollama_refine/1159_29/candidate_001.png",
+    "target": "tp2-chosen/1159_29.png",
+    "target_name": "1159_29.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 2,
+    "objective": 0.03697364032268524,
+    "clip_sim": 0.89599609375,
+    "lpips": 0.6431279182434082,
+    "rmse": 0.21589453518390656,
+    "prompt": "A majestic silver palm tree stands on a rugged rock in the ocean at sunset, with puddles of turquoise water reflecting the warm sunlight and wavy waves gently lapping against the shore, captured in a high definition photograph with long exposure and subtle lens flares.",
+    "render": "students/outputs/20260527-211057_ollama_refine/1159_29/candidate_002.png",
+    "target": "tp2-chosen/1159_29.png",
+    "target_name": "1159_29.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 3,
+    "objective": 0.030276358127593994,
+    "clip_sim": 0.8896484375,
+    "lpips": 0.6458602547645569,
+    "rmse": 0.21351182460784912,
+    "prompt": "A majestic silver palm tree stands on a rugged rock in the ocean at sunset with warm golden light casting long shadows and gentle waves lapping against the shore amidst calm turquoise water reflecting subtle lens flares.",
+    "render": "students/outputs/20260527-211057_ollama_refine/1159_29/candidate_003.png",
+    "target": "tp2-chosen/1159_29.png",
+    "target_name": "1159_29.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  }
+]

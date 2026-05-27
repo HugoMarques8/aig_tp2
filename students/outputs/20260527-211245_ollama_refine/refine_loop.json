@@ -1,0 +1,67 @@
+[
+  {
+    "iter": 1,
+    "objective": 0.20966985821723938,
+    "clip_sim": 0.8330078125,
+    "lpips": 0.4764350950717926,
+    "rmse": 0.14690285921096802,
+    "prompt": "astronaut standing on the surface of a planet with a bright light shining in the background, hq artwork, lost in the milky void, promotional artwork, expansive view, explorers, halo, portrait of a dreamer",
+    "render": "students/outputs/20260527-211245_ollama_refine/7836/candidate_001.png",
+    "target": "tp2-chosen/7836.png",
+    "target_name": "7836.png",
+    "render_seed": 7836,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 2,
+    "objective": 0.19171058386564255,
+    "clip_sim": 0.7978515625,
+    "lpips": 0.4818105697631836,
+    "rmse": 0.12433040887117386,
+    "prompt": "astronaut standing on the surface of a distant planet with a vibrant aurora shining in the background, hq digital artwork, lost in the milky void, expansive view through a worn lens, explorers' portrait of a dreamer amidst an otherworldly landscape.",
+    "render": "students/outputs/20260527-211245_ollama_refine/7836/candidate_002.png",
+    "target": "tp2-chosen/7836.png",
+    "target_name": "7836.png",
+    "render_seed": 7836,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 3,
+    "objective": 0.21744698286056519,
+    "clip_sim": 0.8701171875,
+    "lpips": 0.5135897397994995,
+    "rmse": 0.1390804648399353,
+    "prompt": "astronaut standing on a distant planet's rugged terrain with vibrant aurora swirling in the background, hq digital artwork of an expansive view through a worn, dusty lens, explorers' portrait of a dreamer amidst an otherworldly landscape.",
+    "render": "students/outputs/20260527-211245_ollama_refine/7836/candidate_003.png",
+    "target": "tp2-chosen/7836.png",
+    "target_name": "7836.png",
+    "render_seed": 7836,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 4,
+    "objective": 0.14131617546081543,
+    "clip_sim": 0.83447265625,
+    "lpips": 0.5467895269393921,
+    "rmse": 0.14636695384979248,
+    "prompt": "astronaut standing on a distant planet's rugged terrain with vibrant aurora swirling in the background, hq digital artwork of an expansive view through a worn, dusty, vintage-style lens with subtle lens flares and soft focus effects.",
+    "render": "students/outputs/20260527-211245_ollama_refine/7836/candidate_004.png",
+    "target": "tp2-chosen/7836.png",
+    "target_name": "7836.png",
+    "render_seed": 7836,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 5,
+    "objective": 0.07600048184394836,
+    "clip_sim": 0.8154296875,
+    "lpips": 0.5636804103851318,
+    "rmse": 0.1757487952709198,
+    "prompt": "astronaut standing on a distant planet's rugged terrain with vibrant aurora swirling in the background, hq digital artwork of an expansive view through a worn, vintage-style lens with subtle lens flares and soft focus effects, capturing the scene with warm golden light and rich textures.",
+    "render": "students/outputs/20260527-211245_ollama_refine/7836/candidate_005.png",
+    "target": "tp2-chosen/7836.png",
+    "target_name": "7836.png",
+    "render_seed": 7836,
+    "source": "ollama_refine_loop"
+  }
+]

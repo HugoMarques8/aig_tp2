@@ -1,0 +1,80 @@
+[
+  {
+    "iter": 1,
+    "objective": -0.22361330687999725,
+    "clip_sim": 0.58837890625,
+    "lpips": 0.606675386428833,
+    "rmse": 0.20531682670116425,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake, hyper realistic 3 d render, translucent cube, fractal hair, marvelous designer 3d rendered, pivix, inspired by Gu Hongzhong, dry brushing, 1 9 8 0 s cgi, thunderbolt, mohawk, crt filter",
+    "render": "students/outputs/20260527-211141_ollama_refine/1159_7/candidate_001.png",
+    "target": "tp2-chosen/1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 2,
+    "objective": -0.25567446649074554,
+    "clip_sim": 0.58544921875,
+    "lpips": 0.614404559135437,
+    "rmse": 0.22671912610530853,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake with a vibrant pastel color palette and subtle dry brushing effects, hyper realistic 3d render, translucent cube, fractal hair, marvelous designer 3d rendered, pivix, inspired by Gu Hongzhong, soft focus crt filter, thunderbolt lightning illuminates the scene",
+    "render": "students/outputs/20260527-211141_ollama_refine/1159_7/candidate_002.png",
+    "target": "tp2-chosen/1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 3,
+    "objective": -0.21171976625919342,
+    "clip_sim": 0.5556640625,
+    "lpips": 0.5758398771286011,
+    "rmse": 0.19154395163059235,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake with a vibrant pastel color palette and subtle dry brushing effects, hyper realistic 3d render, soft focus crt filter, gentle thunderbolt lightning illuminates the scene from above, intricate fractal hair, marvelous designer 3d rendered, pivix, inspired by Gu Hongzhong",
+    "render": "students/outputs/20260527-211141_ollama_refine/1159_7/candidate_003.png",
+    "target": "tp2-chosen/1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 4,
+    "objective": -0.1036096066236496,
+    "clip_sim": 0.671875,
+    "lpips": 0.590708315372467,
+    "rmse": 0.18477629125118256,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake with a soft pastel color palette and subtle dry brushing effects, hyper realistic 3d render with intricate fractal hair, gentle thunderbolt lightning illuminates the scene from above with a soft focus crt filter, marvelous designer 3d rendered in pivix style inspired by Gu Hongzhong",
+    "render": "students/outputs/20260527-211141_ollama_refine/1159_7/candidate_004.png",
+    "target": "tp2-chosen/1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 5,
+    "objective": -0.2114887833595276,
+    "clip_sim": 0.58251953125,
+    "lpips": 0.5973605513572693,
+    "rmse": 0.1966477632522583,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake with a soft pastel color palette and subtle dry brushing effects, gentle thunderbolt lightning illuminates the scene from above with a soft focus crt filter, intricate fractal hair with detailed texture and subtle shine, marvelous designer 3d rendered in pivix style inspired by Gu Hongzhong",
+    "render": "students/outputs/20260527-211141_ollama_refine/1159_7/candidate_005.png",
+    "target": "tp2-chosen/1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 6,
+    "objective": -0.25915947556495667,
+    "clip_sim": 0.54736328125,
+    "lpips": 0.597882091999054,
+    "rmse": 0.2086406648159027,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake with a soft pastel color palette and subtle dry brushing effects, gentle thunderbolt lightning illuminates the scene from above with a soft focus crt filter and delicate highlights, intricate fractal hair with detailed texture and subtle shine, marvelous designer 3d rendered in pivix style inspired by Gu Hongzhong",
+    "render": "students/outputs/20260527-211141_ollama_refine/1159_7/candidate_006.png",
+    "target": "tp2-chosen/1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  }
+]
