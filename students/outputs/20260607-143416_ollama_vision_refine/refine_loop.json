@@ -1,0 +1,41 @@
+[
+  {
+    "iter": 1,
+    "objective": 0.21025516092777252,
+    "clip_sim": 0.83349609375,
+    "lpips": 0.4761870503425598,
+    "rmse": 0.14705388247966766,
+    "prompt": "astronaut standing on the surface of a planet with a bright light shining in the background, hq artwork, lost in the milky void, promotional artwork, expansive view, explorers, halo, portrait of a dreamer",
+    "render": "students\\outputs\\20260607-143416_ollama_vision_refine\\7836\\candidate_001.png",
+    "target": "tp2-chosen\\7836.png",
+    "target_name": "7836.png",
+    "render_seed": 7836,
+    "source": "ollama_vision_refine_loop"
+  },
+  {
+    "iter": 2,
+    "objective": 0.21025516092777252,
+    "clip_sim": 0.83349609375,
+    "lpips": 0.4761870503425598,
+    "rmse": 0.14705388247966766,
+    "prompt": "astronaut standing on the surface of a planet with a bright light shining in the background, hq artwork, lost in the milky void, promotional artwork, expansive view, explorers, halo, portrait of a dreamer",
+    "render": "students\\outputs\\20260607-143416_ollama_vision_refine\\7836\\candidate_002.png",
+    "target": "tp2-chosen\\7836.png",
+    "target_name": "7836.png",
+    "render_seed": 7836,
+    "source": "ollama_vision_refine_loop"
+  },
+  {
+    "iter": 3,
+    "objective": 0.21025516092777252,
+    "clip_sim": 0.83349609375,
+    "lpips": 0.4761870503425598,
+    "rmse": 0.14705388247966766,
+    "prompt": "astronaut standing on the surface of a planet with a bright light shining in the background, hq artwork, lost in the milky void, promotional artwork, expansive view, explorers, halo, portrait of a dreamer",
+    "render": "students\\outputs\\20260607-143416_ollama_vision_refine\\7836\\candidate_003.png",
+    "target": "tp2-chosen\\7836.png",
+    "target_name": "7836.png",
+    "render_seed": 7836,
+    "source": "ollama_vision_refine_loop"
+  }
+]

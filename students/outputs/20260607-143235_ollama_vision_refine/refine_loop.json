@@ -1,0 +1,54 @@
+[
+  {
+    "iter": 1,
+    "objective": 0.1628425419330597,
+    "clip_sim": 0.86572265625,
+    "lpips": 0.5126059651374817,
+    "rmse": 0.19027414917945862,
+    "prompt": "anime character with a sword and fire in his hand, trending on artstaton, glowing effect, looking like annie leonhart, inspired by Mandy Jurgens, kerberos, spectral, terada, avatar with a blond hair, by Joong Keun Lee, test subject supersoldier, swirls of fire, ash, in the style of clint cearley",
+    "render": "students\\outputs\\20260607-143235_ollama_vision_refine\\1159_3\\candidate_001.png",
+    "target": "tp2-chosen\\1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_vision_refine_loop"
+  },
+  {
+    "iter": 2,
+    "objective": 0.16690514981746674,
+    "clip_sim": 0.83740234375,
+    "lpips": 0.49868202209472656,
+    "rmse": 0.1718151718378067,
+    "prompt": "anime character with sword and fire, inspired by Mandy Jurgens, kerberos, spectral, terada, avatar with blond hair, by Joong Keun Lee, test subject supersoldier, swirls of fire, ash, in the style of clint cearley",
+    "render": "students\\outputs\\20260607-143235_ollama_vision_refine\\1159_3\\candidate_002.png",
+    "target": "tp2-chosen\\1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_vision_refine_loop"
+  },
+  {
+    "iter": 3,
+    "objective": 0.16690514981746674,
+    "clip_sim": 0.83740234375,
+    "lpips": 0.49868202209472656,
+    "rmse": 0.1718151718378067,
+    "prompt": "anime character with sword and fire, inspired by Mandy Jurgens, kerberos, spectral, terada, avatar with blond hair, by Joong Keun Lee, test subject supersoldier, swirls of fire, ash, in the style of clint cearley",
+    "render": "students\\outputs\\20260607-143235_ollama_vision_refine\\1159_3\\candidate_003.png",
+    "target": "tp2-chosen\\1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_vision_refine_loop"
+  },
+  {
+    "iter": 4,
+    "objective": 0.16690514981746674,
+    "clip_sim": 0.83740234375,
+    "lpips": 0.49868202209472656,
+    "rmse": 0.1718151718378067,
+    "prompt": "anime character with sword and fire, inspired by Mandy Jurgens, kerberos, spectral, terada, avatar with blond hair, by Joong Keun Lee, test subject supersoldier, swirls of fire, ash, in the style of clint cearley",
+    "render": "students\\outputs\\20260607-143235_ollama_vision_refine\\1159_3\\candidate_004.png",
+    "target": "tp2-chosen\\1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_vision_refine_loop"
+  }
+]

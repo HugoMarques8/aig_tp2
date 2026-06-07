@@ -1,0 +1,44 @@
+[
+  {
+    "iter": 1,
+    "opt_seed": 1,
+    "objective": 0.15613847970962524,
+    "clip_sim": 0.93310546875,
+    "lpips": 0.5780338644981384,
+    "rmse": 0.19893312454223633,
+    "prompt": "arafed palm tree on a rock in the ocean at sunset, adventure hyper realistic render, photoreailstic, an enormous silver tree, puddles of turquoise water, the sun is shining. photographic, long exposure photograph, in matte painting, flooding, inspired by Andrey Esionov, photographic print, high definition photo, old tree",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_29\\seed1\\candidate_001.png",
+    "target": "tp2-chosen\\1159_29.png",
+    "target_name": "1159_29.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 2,
+    "opt_seed": 1,
+    "objective": 0.045378267765045166,
+    "clip_sim": 0.91455078125,
+    "lpips": 0.649531900882721,
+    "rmse": 0.2196406126022339,
+    "prompt": "a majestic silver palm tree stands tall on a rugged rock in the ocean at sunset, hyper realistic render with vibrant turquoise puddles and long exposure photographic effect, inspired by Andrey Esionov's style, high definition photo with warm golden light and soft focus.",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_29\\seed1\\candidate_002.png",
+    "target": "tp2-chosen\\1159_29.png",
+    "target_name": "1159_29.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 3,
+    "opt_seed": 1,
+    "objective": 0.04838632047176361,
+    "clip_sim": 0.8896484375,
+    "lpips": 0.6311019659042358,
+    "rmse": 0.21016015112400055,
+    "prompt": "A majestic silver palm tree stands tall on a rugged rock in the ocean at sunset, with warm golden light casting long shadows and soft focus, vibrant turquoise puddles reflecting the sky's hues, high definition photo with subtle lens flares and gentle overexposure.",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_29\\seed1\\candidate_003.png",
+    "target": "tp2-chosen\\1159_29.png",
+    "target_name": "1159_29.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  }
+]

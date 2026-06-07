@@ -1,0 +1,72 @@
+[
+  {
+    "iter": 1,
+    "opt_seed": 0,
+    "objective": 0.1628425419330597,
+    "clip_sim": 0.86572265625,
+    "lpips": 0.5126059651374817,
+    "rmse": 0.19027414917945862,
+    "prompt": "anime character with a sword and fire in his hand, trending on artstaton, glowing effect, looking like annie leonhart, inspired by Mandy Jurgens, kerberos, spectral, terada, avatar with a blond hair, by Joong Keun Lee, test subject supersoldier, swirls of fire, ash, in the style of clint cearley",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_3\\seed0\\candidate_001.png",
+    "target": "tp2-chosen\\1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 2,
+    "opt_seed": 0,
+    "objective": 0.15591394901275635,
+    "clip_sim": 0.8134765625,
+    "lpips": 0.4811481535434723,
+    "rmse": 0.17641445994377136,
+    "prompt": "Anime character with a sword and fire in hand, trending on ArtStation, soft glowing effect, inspired by Mandy Jurgens' style of spectral colors, terada's dynamic lighting, Joong Keun Lee's avatar-like texture, Clint Cearley's warm color palette, ash swirling around the subject, blond hair styled like Annie Leonhart's.",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_3\\seed0\\candidate_002.png",
+    "target": "tp2-chosen\\1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 3,
+    "opt_seed": 0,
+    "objective": 0.1755005419254303,
+    "clip_sim": 0.8359375,
+    "lpips": 0.49057531356811523,
+    "rmse": 0.16986164450645447,
+    "prompt": "Anime character with a sword and fire in hand, trending on ArtStation, soft glowing effect, inspired by Mandy Jurgens' spectral colors, Joong Keun Lee's avatar-like texture, Clint Cearley's warm color palette, ash swirling around the subject, blond hair styled like Annie Leonhart's, dynamic lighting reminiscent of terada's style, subtle gradient in background.",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_3\\seed0\\candidate_003.png",
+    "target": "tp2-chosen\\1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 4,
+    "opt_seed": 0,
+    "objective": 0.13714352250099182,
+    "clip_sim": 0.79931640625,
+    "lpips": 0.49755337834358215,
+    "rmse": 0.16461950540542603,
+    "prompt": "Anime character with a sword and fire in hand, trending on ArtStation, soft glowing effect, inspired by Mandy Jurgens' spectral colors, Joong Keun Lee's detailed avatar-like texture, Clint Cearley's warm and vibrant color palette, ash swirling around the subject in subtle wisps, blond hair styled like Annie Leonhart's with gentle waves, dynamic lighting reminiscent of terada's style with soft shadows, background with a subtle gradient transitioning to a deep blue.",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_3\\seed0\\candidate_004.png",
+    "target": "tp2-chosen\\1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 5,
+    "opt_seed": 0,
+    "objective": 0.15295624732971191,
+    "clip_sim": 0.80322265625,
+    "lpips": 0.47876524925231934,
+    "rmse": 0.17150115966796875,
+    "prompt": "Anime character with a sword and fire in hand, trending on ArtStation, soft glowing effect, inspired by Mandy Jurgens' spectral colors, Joong Keun Lee's detailed avatar-like texture, Clint Cearley's warm and vibrant color palette refined to deep blues and golden hues, ash swirling around the subject in subtle wisps with gentle, feathery edges, blond hair styled like Annie Leonhart's with soft, flowing waves under dynamic lighting reminiscent of terada's style with soft shadows and subtle highlights.",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_3\\seed0\\candidate_005.png",
+    "target": "tp2-chosen\\1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  }
+]

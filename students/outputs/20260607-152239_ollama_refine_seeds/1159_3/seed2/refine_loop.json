@@ -1,0 +1,58 @@
+[
+  {
+    "iter": 1,
+    "opt_seed": 2,
+    "objective": 0.1628425419330597,
+    "clip_sim": 0.86572265625,
+    "lpips": 0.5126059651374817,
+    "rmse": 0.19027414917945862,
+    "prompt": "anime character with a sword and fire in his hand, trending on artstaton, glowing effect, looking like annie leonhart, inspired by Mandy Jurgens, kerberos, spectral, terada, avatar with a blond hair, by Joong Keun Lee, test subject supersoldier, swirls of fire, ash, in the style of clint cearley",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_3\\seed2\\candidate_001.png",
+    "target": "tp2-chosen\\1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 2,
+    "opt_seed": 2,
+    "objective": 0.18291254341602325,
+    "clip_sim": 0.841796875,
+    "lpips": 0.4767748713493347,
+    "rmse": 0.18210946023464203,
+    "prompt": "Anime character with a sword and flames in hand, trending on ArtStation, glowing effect, inspired by Mandy Jurgens' style of spectral and terada's avatar with blond hair, Joong Keun Lee's influence, test subject supersoldier, soft focus lens, warm color palette, subtle ash and embers surrounding.",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_3\\seed2\\candidate_002.png",
+    "target": "tp2-chosen\\1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 3,
+    "opt_seed": 2,
+    "objective": 0.14824214577674866,
+    "clip_sim": 0.83154296875,
+    "lpips": 0.4908986985683441,
+    "rmse": 0.19240212440490723,
+    "prompt": "Anime character with a sword and flames in hand, trending on ArtStation, glowing effect, inspired by Mandy Jurgens' spectral style and Terada's avatar with subtle blond highlights, Joong Keun Lee's influence on warm, soft focus lens, minimal ash and embers surrounding a shallow depth of field.",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_3\\seed2\\candidate_003.png",
+    "target": "tp2-chosen\\1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 4,
+    "opt_seed": 2,
+    "objective": 0.06583669781684875,
+    "clip_sim": 0.8095703125,
+    "lpips": 0.5333157181739807,
+    "rmse": 0.21041789650917053,
+    "prompt": "Anime character with a sword and flames in hand, trending on ArtStation, glowing effect, inspired by Mandy Jurgens' spectral style and Terada's avatar with subtle blond highlights, Joong Keun Lee's influence on warm, soft focus lens, minimal ash and embers surrounding a shallow depth of field, vibrant orange-yellow flames with subtle gradient, delicate golden glow on the sword.",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_3\\seed2\\candidate_004.png",
+    "target": "tp2-chosen\\1159_3.png",
+    "target_name": "1159_3.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  }
+]

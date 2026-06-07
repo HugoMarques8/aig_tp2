@@ -1,0 +1,44 @@
+[
+  {
+    "iter": 1,
+    "opt_seed": 2,
+    "objective": 0.03477980196475983,
+    "clip_sim": 0.7763671875,
+    "lpips": 0.5461618304252625,
+    "rmse": 0.19542555510997772,
+    "prompt": "painting of a mouse with a colorful tail and tail, inspired by Chris Rahn, crystalized scales, npc with a saint\\'s halo, colossal fluffy tardigrade, in the style of ross tran, the squirrel king, full art, by Olha Darchuk, puffs of colored smoke, quokka, furry fluffy iridescent dragon",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\9338\\seed2\\candidate_001.png",
+    "target": "tp2-chosen\\9338.png",
+    "target_name": "9338.png",
+    "render_seed": 9338,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 2,
+    "opt_seed": 2,
+    "objective": -0.2955612540245056,
+    "clip_sim": 0.66748046875,
+    "lpips": 0.7072314023971558,
+    "rmse": 0.25581032037734985,
+    "prompt": "painting of a colossal furry iridescent dragon with crystalized scales and saint's halo, surrounded by puffs of colored smoke, in the style of Ross Tran, full art, by Olha Darchuk.",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\9338\\seed2\\candidate_002.png",
+    "target": "tp2-chosen\\9338.png",
+    "target_name": "9338.png",
+    "render_seed": 9338,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 3,
+    "opt_seed": 2,
+    "objective": -0.36338627338409424,
+    "clip_sim": 0.6591796875,
+    "lpips": 0.7260538339614868,
+    "rmse": 0.2965121269226074,
+    "prompt": "painting of a colossal furry iridescent dragon with crystallized scales and saint's halo, surrounded by wispy puffs of pastel-colored smoke, in the style of Ross Tran, full art, soft focus, subtle highlights.",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\9338\\seed2\\candidate_003.png",
+    "target": "tp2-chosen\\9338.png",
+    "target_name": "9338.png",
+    "render_seed": 9338,
+    "source": "ollama_refine_loop"
+  }
+]

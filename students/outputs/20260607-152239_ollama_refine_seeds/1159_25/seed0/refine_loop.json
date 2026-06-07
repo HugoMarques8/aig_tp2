@@ -1,0 +1,44 @@
+[
+  {
+    "iter": 1,
+    "opt_seed": 0,
+    "objective": 0.29240308701992035,
+    "clip_sim": 0.93212890625,
+    "lpips": 0.4566502571105957,
+    "rmse": 0.18307556211948395,
+    "prompt": "there is a glass of orange juice with a slice of orange on the side, unsplash 4k, ps5 render quality, by Antoni Brodowski, post-processing. high detail, soymilk, cgsociety 9, inspired by Perle Fine, high quality topical render, akiman, malt",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_25\\seed0\\candidate_001.png",
+    "target": "tp2-chosen\\1159_25.png",
+    "target_name": "1159_25.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 2,
+    "opt_seed": 0,
+    "objective": 0.23638923466205597,
+    "clip_sim": 0.904296875,
+    "lpips": 0.46776261925697327,
+    "rmse": 0.20014502108097076,
+    "prompt": "there is a glass of vibrant orange juice with a slice of orange on the side, unsplash 4k, ps5 render quality, by Antoni Brodowski, post-processing, high detail, subtle grain, soft focus, warm natural light, shallow depth of field, cgsociety 9, inspired by Perle Fine, high quality topical render, akiman, malt",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_25\\seed0\\candidate_002.png",
+    "target": "tp2-chosen\\1159_25.png",
+    "target_name": "1159_25.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 3,
+    "opt_seed": 0,
+    "objective": -0.0008716881275177002,
+    "clip_sim": 0.92431640625,
+    "lpips": 0.6735438704490662,
+    "rmse": 0.25164422392845154,
+    "prompt": "there is a glass of vibrant orange juice with a slice of orange on the side, unsplash 4k, ps5 render quality, by Antoni Brodowski, post-processing, high detail, subtle warm grain, soft focus, natural light pouring through a window, shallow depth of field, cgsociety 9, inspired by Perle Fine, high quality topical render, akiman, malt",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_25\\seed0\\candidate_003.png",
+    "target": "tp2-chosen\\1159_25.png",
+    "target_name": "1159_25.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  }
+]

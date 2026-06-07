@@ -1,0 +1,58 @@
+[
+  {
+    "iter": 1,
+    "opt_seed": 1,
+    "objective": -0.15646113455295563,
+    "clip_sim": 0.59912109375,
+    "lpips": 0.5645155906677246,
+    "rmse": 0.19106663763523102,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake, hyper realistic 3 d render, translucent cube, feathery fluff, marvelous designer 3d rendered, boris vallego, citrinitas, 1 9 8 0 s cgi, mowhawk, nimbus, [ moist, crt filter, reluvy5213, fotorealistic",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_7\\seed1\\candidate_001.png",
+    "target": "tp2-chosen\\1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 2,
+    "opt_seed": 1,
+    "objective": -0.11607618629932404,
+    "clip_sim": 0.62890625,
+    "lpips": 0.5691120028495789,
+    "rmse": 0.17587043344974518,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake in a warm and soft crt filtered light with feathery fluff and translucent cube background simplicity nimbus cloudy sky marvelous designer 3d rendered boris vallego style fotorealistic moist textures",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_7\\seed1\\candidate_002.png",
+    "target": "tp2-chosen\\1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 3,
+    "opt_seed": 1,
+    "objective": -0.2572561651468277,
+    "clip_sim": 0.5947265625,
+    "lpips": 0.6569200158119202,
+    "rmse": 0.19506271183490753,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake in warm soft crt filtered light with feathery fluff and translucent cube background simplicity nimbus cloudy sky marvelous designer 3d rendered boris vallego style fotorealistic moist detailed textures subtle lens flare",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_7\\seed1\\candidate_003.png",
+    "target": "tp2-chosen\\1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 4,
+    "opt_seed": 1,
+    "objective": -0.1267346888780594,
+    "clip_sim": 0.6796875,
+    "lpips": 0.6459782123565674,
+    "rmse": 0.160443976521492,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake in warm crt filtered light with feathery fluff and subtle lens flare soft focus nimbus cloudy sky moist detailed textures 3d rendered fotorealistic designer boris vallego style simplicity cube background",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_7\\seed1\\candidate_004.png",
+    "target": "tp2-chosen\\1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  }
+]

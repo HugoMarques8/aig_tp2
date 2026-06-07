@@ -20,7 +20,9 @@ dependencies = [
     "transformers>=5.9.0",
 ]
 
-[project.optional-dependencies]
+# CUDA torch/torchvision live in dependency-groups (not extras) so one of them
+# can be made the default sync set via [tool.uv] default-groups below.
+[dependency-groups]
 cuda126 = [
     "torch>=2.6.0",
     "torchvision>=0.26.0",
@@ -32,12 +34,12 @@ cuda128 = [
 
 [tool.uv.sources]
 torch = [
-    { index = "pytorch-cu126", extra = "cuda126" },
-    { index = "pytorch-cu128", extra = "cuda128" },
+    { index = "pytorch-cu126", group = "cuda126" },
+    { index = "pytorch-cu128", group = "cuda128" },
 ]
 torchvision = [
-    { index = "pytorch-cu126", extra = "cuda126" },
-    { index = "pytorch-cu128", extra = "cuda128" },
+    { index = "pytorch-cu126", group = "cuda126" },
+    { index = "pytorch-cu128", group = "cuda128" },
 ]
 
 [[tool.uv.index]]
@@ -51,9 +53,13 @@ url = "https://download.pytorch.org/whl/cu128"
 explicit = true
 
 [tool.uv]
+# Pull the CUDA 12.8 torch/torchvision wheels by default so `uv sync` / `uv run`
+# don't silently fall back to the CPU build. To use CUDA 12.6 instead:
+# `uv sync --no-default-groups --group cuda126`.
+default-groups = ["cuda128"]
 conflicts = [
     [
-        { extra = "cuda126" },
-        { extra = "cuda128" },
+        { group = "cuda126" },
+        { group = "cuda128" },
     ],
 ]

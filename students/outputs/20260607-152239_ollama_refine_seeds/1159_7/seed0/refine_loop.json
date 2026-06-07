@@ -1,0 +1,44 @@
+[
+  {
+    "iter": 1,
+    "opt_seed": 0,
+    "objective": -0.15646113455295563,
+    "clip_sim": 0.59912109375,
+    "lpips": 0.5645155906677246,
+    "rmse": 0.19106663763523102,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake, hyper realistic 3 d render, translucent cube, feathery fluff, marvelous designer 3d rendered, boris vallego, citrinitas, 1 9 8 0 s cgi, mowhawk, nimbus, [ moist, crt filter, reluvy5213, fotorealistic",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_7\\seed0\\candidate_001.png",
+    "target": "tp2-chosen\\1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 2,
+    "opt_seed": 0,
+    "objective": -0.2422822117805481,
+    "clip_sim": 0.56396484375,
+    "lpips": 0.6135619878768921,
+    "rmse": 0.192685067653656,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake with feathery fluff and mowhawk in a marvelous designer 3d rendered style with translucent cube and nimbus lighting, crt filter, fotorealistic, boris vallego, citrinitas, 1:9 aspect ratio",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_7\\seed0\\candidate_002.png",
+    "target": "tp2-chosen\\1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 3,
+    "opt_seed": 0,
+    "objective": -0.18171972036361694,
+    "clip_sim": 0.5673828125,
+    "lpips": 0.5793733596801758,
+    "rmse": 0.16972917318344116,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake with feathery fluff and mohawk in a marvelous designer 3d rendered style with subtle crt filter, soft nimbus lighting, realistic textures and materials, boris vallego's vibrant color palette, citrinitas, 1:9 aspect ratio",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_7\\seed0\\candidate_003.png",
+    "target": "tp2-chosen\\1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "iter": 1,
+    "opt_seed": 0,
+    "objective": 0.21025516092777252,
+    "clip_sim": 0.83349609375,
+    "lpips": 0.4761870503425598,
+    "rmse": 0.14705388247966766,
+    "prompt": "astronaut standing on the surface of a planet with a bright light shining in the background, hq artwork, lost in the milky void, promotional artwork, expansive view, explorers, halo, portrait of a dreamer",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\7836\\seed0\\candidate_001.png",
+    "target": "tp2-chosen\\7836.png",
+    "target_name": "7836.png",
+    "render_seed": 7836,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 2,
+    "opt_seed": 0,
+    "objective": 0.18783734738826752,
+    "clip_sim": 0.828125,
+    "lpips": 0.5032109022140503,
+    "rmse": 0.1370767503976822,
+    "prompt": "astronaut standing on a distant planet's surface with a vibrant aurora shining in the background, hq digital artwork, expansive view of the cosmos, explorers' portrait, soft focus halo, dreamy atmosphere.",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\7836\\seed0\\candidate_002.png",
+    "target": "tp2-chosen\\7836.png",
+    "target_name": "7836.png",
+    "render_seed": 7836,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 3,
+    "opt_seed": 0,
+    "objective": 0.1571139246225357,
+    "clip_sim": 0.82763671875,
+    "lpips": 0.5216373205184937,
+    "rmse": 0.14888547360897064,
+    "prompt": "astronaut standing on a distant planet's surface with vibrant aurora shining in the background, hq digital artwork, expansive view of the cosmos, soft focus lens capturing subtle textures and colors, dreamy atmosphere with warm golden light.",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\7836\\seed0\\candidate_003.png",
+    "target": "tp2-chosen\\7836.png",
+    "target_name": "7836.png",
+    "render_seed": 7836,
+    "source": "ollama_refine_loop"
+  }
+]

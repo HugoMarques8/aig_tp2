@@ -1,0 +1,44 @@
+[
+  {
+    "iter": 1,
+    "opt_seed": 2,
+    "objective": 0.21025516092777252,
+    "clip_sim": 0.83349609375,
+    "lpips": 0.4761870503425598,
+    "rmse": 0.14705388247966766,
+    "prompt": "astronaut standing on the surface of a planet with a bright light shining in the background, hq artwork, lost in the milky void, promotional artwork, expansive view, explorers, halo, portrait of a dreamer",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\7836\\seed2\\candidate_001.png",
+    "target": "tp2-chosen\\7836.png",
+    "target_name": "7836.png",
+    "render_seed": 7836,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 2,
+    "opt_seed": 2,
+    "objective": 0.20625603199005127,
+    "clip_sim": 0.841796875,
+    "lpips": 0.4913209080696106,
+    "rmse": 0.14421993494033813,
+    "prompt": "astronaut standing on the surface of a distant planet with a radiant aurora shining in the background, hq artwork, lost in the milky void, promotional artwork, expansive view, explorers, soft halo, dreamy portrait of an astronaut",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\7836\\seed2\\candidate_002.png",
+    "target": "tp2-chosen\\7836.png",
+    "target_name": "7836.png",
+    "render_seed": 7836,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 3,
+    "opt_seed": 2,
+    "objective": 0.05794063210487366,
+    "clip_sim": 0.759765625,
+    "lpips": 0.5435073375701904,
+    "rmse": 0.1583176553249359,
+    "prompt": "astronaut standing on the distant planet's surface with vibrant aurora shining softly in the expansive background, hq dreamy portrait of an explorer lost in the milky void under a radiant soft halo.",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\7836\\seed2\\candidate_003.png",
+    "target": "tp2-chosen\\7836.png",
+    "target_name": "7836.png",
+    "render_seed": 7836,
+    "source": "ollama_refine_loop"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "iter": 1,
+    "opt_seed": 2,
+    "objective": -0.15646113455295563,
+    "clip_sim": 0.59912109375,
+    "lpips": 0.5645155906677246,
+    "rmse": 0.19106663763523102,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake, hyper realistic 3 d render, translucent cube, feathery fluff, marvelous designer 3d rendered, boris vallego, citrinitas, 1 9 8 0 s cgi, mowhawk, nimbus, [ moist, crt filter, reluvy5213, fotorealistic",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_7\\seed2\\candidate_001.png",
+    "target": "tp2-chosen\\1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 2,
+    "opt_seed": 2,
+    "objective": -0.11622646450996399,
+    "clip_sim": 0.65771484375,
+    "lpips": 0.5872266292572021,
+    "rmse": 0.18671467900276184,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake with feathery fluff and mohawk, hyper realistic 3d render with translucent cube, marvelous designer 3d rendered in the style of boris vallego's citrinitas, nostalgic 1980s crt filter aesthetic, soft focus, warm color palette, subtle lens flares",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_7\\seed2\\candidate_002.png",
+    "target": "tp2-chosen\\1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 3,
+    "opt_seed": 2,
+    "objective": -0.102357417345047,
+    "clip_sim": 0.6005859375,
+    "lpips": 0.5344176292419434,
+    "rmse": 0.16852572560310364,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake with feathery fluff and mohawk in warm pastel colors, soft focus, subtle lens flares, nostalgic 1980s crt filter aesthetic, marvelous designer 3d rendered in the style of boris vallego's citrinitas with intricate textures and realistic lighting",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_7\\seed2\\candidate_003.png",
+    "target": "tp2-chosen\\1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 4,
+    "opt_seed": 2,
+    "objective": -0.15784740447998047,
+    "clip_sim": 0.58154296875,
+    "lpips": 0.5611167550086975,
+    "rmse": 0.17827361822128296,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake with feathery fluff and mohawk in warm pastel colors, soft focus, subtle lens flares, nostalgic 1980s crt filter aesthetic, marvelous designer 3d rendered in the style of boris vallego's citrinitas with intricate realistic textures and delicate lighting effects",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_7\\seed2\\candidate_004.png",
+    "target": "tp2-chosen\\1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  },
+  {
+    "iter": 5,
+    "opt_seed": 2,
+    "objective": -0.10706567764282227,
+    "clip_sim": 0.609375,
+    "lpips": 0.5416229367256165,
+    "rmse": 0.1748177409172058,
+    "prompt": "there is a small hedgehog sitting on top of a block of cake with feathery fluff and mohawk in warm pastel colors soft focus subtle lens flares nostalgic 1980s crt filter aesthetic marvelous designer 3d rendered in the style of boris vallego's citrinitas but with more realistic textures and delicate lighting effects that capture intricate details",
+    "render": "students\\outputs\\20260607-152239_ollama_refine_seeds\\1159_7\\seed2\\candidate_005.png",
+    "target": "tp2-chosen\\1159_7.png",
+    "target_name": "1159_7.png",
+    "render_seed": 1159,
+    "source": "ollama_refine_loop"
+  }
+]
