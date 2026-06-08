@@ -5,25 +5,15 @@ Files:
 - `TP2_StarterPack_Students.ipynb`: Colab/VS Code starter notebook.
 - `tp2-chosen/`: copy of the TP2 target images.
 - `tp2-chosen.zip`: optional zip with the same target images.
-- `outputs/`: local output folder placeholder.
+- `students/outputs/`: local output folder placeholder.
 
-Recommended Google Drive layout for Colab / VS Code Colab extension:
+The notebook reads targets from `tp2-chosen/` and saves generated outputs to `students/outputs/`.
 
-```text
-MyDrive/GENAI_TP2/tp2-chosen/*.png
-```
+## Requirements
 
-or:
-
-```text
-MyDrive/GENAI_TP2/tp2-chosen.zip
-```
-
-The notebook mounts Google Drive, searches these paths, extracts the zip if needed, and saves generated outputs to:
-
-```text
-MyDrive/GENAI_TP2/outputs/
-```
+- A Hugging Face account / access token is needed to download model weights on first run: the LCM generator (`SimianLuo/LCM_Dreamshaper_v7`) and the CLIP-Interrogator models it uses for seed prompts (BLIP + `ViT-L-14`). Log in with `huggingface-cli login` (or set `HF_TOKEN`).
+- Ollama (with an account) is required for the prompt-refinement loop. Run `ollama serve` and pull the models: `ollama pull llama3.1:8b` (text) and `ollama pull llava` (vision).
+- A CUDA GPU is recommended. Install the PyTorch build that matches your GPU's CUDA version (see "Local install" below) — using the wrong CUDA version will fall back to CPU or fail to load.
 
 The LCM settings match the TP2 target generation setup:
 
